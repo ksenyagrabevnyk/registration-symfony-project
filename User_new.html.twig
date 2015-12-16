@@ -1,0 +1,16 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+
+    <h1>UserFilm creation</h1>
+
+    {{ form(form) }}
+
+    <ul class="record_actions">
+        <li>
+            <a href="{{ path('userfilm') }}">
+                Back to the list
+            </a>
+        </li>
+    </ul>
+{% endblock %}
